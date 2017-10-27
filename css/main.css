@@ -1,0 +1,460 @@
+/* ==|== RESET =====================================================
+   Author: http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126   License: none (public domain)
+   ========================================================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/*pseudo classes - before/after, makes sure element before & after has no content*/
+blockquote:before, blockquote:after, 
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button, input, .categories{
+	border: none;
+}
+.clearfix:after { visibility: hidden;
+                  display: block;
+                  font-size: 0;
+                  content: " ";
+                  clear: both;
+                  height: 0;
+                  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */  
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+
+  
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+    font-size: 1em;
+    line-height: 1.4;
+	font-family: Century Gothic, sans-serif;
+}
+.red, .CreateAccount strong{
+	color: #A00C1C
+}
+.yellow {
+	color: #FDBC0F;
+		}
+		
+.grey {
+	color: #646464;
+/*
+	margin-top: 30px;
+*/
+}		
+
+#browse-search {
+	width: 630px;
+}
+button, .yelLabel {
+	background-color:  #FDBC0F;
+	color:  #A00C1C;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	display: inline-block;
+	max-width: 200px;
+	margin: 5px;
+	font-family: Century Gothic, sans-serif;
+			}
+			
+button:hover {
+	background-color:#A00C1C;
+	color: white;
+}
+
+		
+			
+input, .categories {
+	color: #646464;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	display: inline-block;
+	max-width: 250px;
+	margin: 2px;
+	font-family: Century Gothic, sans-serif;
+}			
+
+.floatLeft {float: left;}
+
+.floatRight {float: right;}
+
+.inlineBlock, .storeForm p, .storeform button
+ {display:inline-block;}
+	
+.verticalMid {
+	vertical-align:middle;
+	padding: 5px;
+}
+
+.account {
+	margin: 5px 0 5px 160px ;
+}
+
+img {margin: 0}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 5em;
+	color: #FDBC0F;
+}
+
+h2 {
+	font-size: 3.5em;
+	color: white;
+}
+
+h3 {
+	font-size: 2em;
+	color: white;
+	margin: 3px;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: white;
+	margin: 0 5px;
+}
+
+h5 {
+	font-size: 1em;
+	color: white;
+	margin: 0 5px;
+}
+.middle {
+	margin-left: 25px;
+}
+
+.feature {
+	margin: 20px;
+	border: 1px dashed #FDBC0F;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius:20px;
+	padding: 5px;
+}
+
+.feature form {
+	position: relative;
+	top: 30px;
+}
+
+.featureText {
+	width: 450px;
+	text-align: center;
+}
+
+.feature2 {
+	margin: 20px;
+	border: 1px dashed white;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+iframe {
+	margin: 10px;
+}
+
+.map {
+	margin: 10px 50px;
+}
+
+.featureItem, .featureThumbs {
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	height: 208px;
+}
+
+.featureThumbs p {
+	margin: auto;
+	width: 800px;
+	position: relative;
+	top: 29px;
+}
+
+.featureThumbs img {
+	vertical-align:middle;
+	margin: 0 5px;
+}
+
+.featureItem img {
+	margin: 0 40px 0 20px;
+	clear: right;
+	display: block;
+}
+
+.featureItem p {
+	width: 300px;
+	height: 0px;
+	text-align:center;
+	position: relative;
+	top: -70px;
+	text-decoration: underline;
+
+}
+
+.description {
+	color: white;
+	font-size: 0.9em;
+}
+
+.description li {
+	list-style: inside;
+}
+
+.description strong {
+	color: #FDBC0F;
+}
+
+.ad {
+	margin: 20px;
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.ad img {
+	width: 820px;
+	margin: 0 50px;
+}
+
+.CreateAccount {
+	color: #FDBC0F;
+	padding: 0 30px;
+	height: 480px;
+}
+
+.CreateAccount a{
+	color: white;
+}
+
+.CreateAccount input, #gender, .CreateAccount button {
+	position: absolute;
+	left: 250px;
+}
+
+.CreateAccount label {
+	text-align: right;
+	width: 200px;
+	display: inline-block;
+}
+
+.CreateAccount p {
+	padding: 10px;
+}
+
+.CreateAccount span {
+	margin-left: 150px;
+}
+
+.CreateAccount button {
+	margin: 10px 0;
+}
+
+.views {
+	list-style: square;
+	list-style-position: outside;
+	color: white;
+	text-align: justify;
+	margin: 0 50px;
+}
+
+.views a, .views a:hover, .views a:visited {
+	color: white;
+}
+
+.breadcrumb {
+	margin-left: 200px;
+}
+
+.gallery {
+	display: inline-block;
+	width: 220px;
+	margin: 5px;
+	padding: 0;
+}
+
+.background {
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	width: 220px;
+}
+
+.background img {
+	margin: 5px;
+}
+
+.gallery p {
+	color: #FDBC0F;
+	margin: 5px;
+	display: inline-block;
+}
+	
+/*------DROP DOWN NAV--------------------*/
+ul.nav, ul.nav ul {
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+	float: left;
+	font-family: Century Gothic, sans-serif;
+	color: #FDBC0F;
+	background-color: black;
+}
+
+ul.nav>li {
+	float: left;
+	width: 12em;
+	border-bottom: 1px solid white;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+ul.nav li ul {
+	position: absolute;
+	width: 12em;
+	left: -999em;
+	margin-left: -1px;
+}
+
+.nav li:hover ul {
+	left: auto;
+}
+
+ul.nav a {
+	display: block;
+	color: #FDBC0F;
+  text-decoration: none;
+	padding: 0.3em 1em;
+}
+
+ul.nav li:last-child a {
+	border-bottom: 1px solid white;
+}
+
+.nav ul a:hover,
+.nav ul a:focus {
+	color: red;
+	background-color: #FDBC0F;
+}
+
+/*------DROP DOWN LOGIN BUTTON--------------------*/
+
+#login li>ul  {display: none}
+
+#login li:hover > ul {display:block}
+
+#headerLoginForgot, #headerLoginForgot:hover, #headerLoginForgot:visited {
+	color: #FDBC0F;
+}
+
+
+
+/*------FOOTER NAV--------------------*/
+
+.bottomNav {
+	margin: 20px 20px 0 20px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 5px;
+}
+
+.bottomNav ul, .bottomNav li {
+	font-size: 0.9em;
+}
+
+.bottomNav ul {
+	padding: 5px 0;
+}
+
+.bottomNav li {
+	width: 150px;
+}
+
+.bottomNav ul>li {
+	color: #646464;
+}
+
+
+.bottomNav ul a {
+	color: #FDBC0F;
+}
+
+.bottomNav ul a:hover{
+	color: #A00C1C;
+	background-color: black;
+}
+
+.block {
+	display: block;
+}
+
+.disclaimer a, .disclaimer p, .disclaimer nav {
+	color: grey;
+	font-size: 0.8em;
+	display: inline-block;
+	margin: 10px;
+}
+
+.disclaimer {
+	margin: 0 20px;
+}
+
+.disclaimer p {
+margin: 10px 0 10px 160px;
+}
+
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
